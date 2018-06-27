@@ -59,6 +59,7 @@ h4 {
     background-image: linear-gradient(#DDFF01, #2e0);
     content: "M";
     font-weight: bold;
+    margin-right: 0.1em;
 }
 
 .sobre {
@@ -73,8 +74,14 @@ section {
     clear: both;
 }
 
+p::first-letter {
+    font-size: 1.2rem;
+    color: #2e0;
+    font-weight: bolder;
+    content: "";
+}
+
 .minha-foto {
-    display: inline-block;
     float: right;
 }
 
@@ -82,4 +89,8 @@ section {
     border: 0 solid black;
     border-radius: 100%;
     width: 10%;
+}
+
+.card {
+    border: none;
 }
