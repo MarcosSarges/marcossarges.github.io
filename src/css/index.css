@@ -30,6 +30,7 @@ body {
 h4 {
     font-family: 'Encode Sans Semi Expanded', sans-serif;
     text-transform: uppercase;
+    font-weight: bolder;
 }
 
 .h4,
