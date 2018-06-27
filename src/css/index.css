@@ -1,0 +1,41 @@
+body {
+    color: white;
+}
+
+.cabecalho {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.meuNome:hover {
+    color: #2e0;
+    transition: 0.5s;
+}
+
+#menuSite a:hover {
+    color: #2e0;
+    transition: 0.5s;
+}
+
+.h1 {
+    font-size: 2rem;
+}
+
+.conteudo-principal h3,
+h4 {
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    text-transform: uppercase;
+}
+
+.titulos {
+    position: relative;
+}
+
+.titulos::before {
+    content: '';
+    display: inline-block;
+    height: 18px;
+    width: 3px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-image: linear-gradient(#DDFF01, #2e0);
+}

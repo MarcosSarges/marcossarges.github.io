@@ -14,35 +14,65 @@
     <!-- Font Awensome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <!-- fim -->
+    <!--Importando fontes do google-->
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded" rel="stylesheet">
+    <!--Fim-->
     <!-- Meu css -->
-    <link rel="stylesheet" type="text/css" href="css/site.css">
+    <link rel="stylesheet" type="text/css" href="src/css/index.css">
     <!-- fim -->
     <title>Marcos Sarges</title>
 </head>
 
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#sobre">Sobre mim</a>
-                </li>
-                <li>
-                    <a href="#experiencias">Experiência</a>
-                </li>
-                <li>
-                    <a href="#projetos">Projetos</a>
-                </li>
-                <li>
-                    <a href="#competencias">Competências</a>
-                </li>
-                <li>
-                    <a href="#contatos">Contatos</a>
-                </li>
-            </ul>
+<body class="bg-dark">
+    <header class="cabecalho">
+        <nav class="navbar navbar-fixed-top navbar-expand-md navbar-dark">
+            <div class="container">
+                <a href="#" class="navbar-brand h1 mb-0 meuNome">Marcos Sarges</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuSite">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-light" id="menuSite">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#sobre" class="nav-link">Sobre mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#experiencias" class="nav-link">Experiência</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#projetos" class="nav-link">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#competencias" class="nav-link">Competências</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contatos" class="nav-link">Contatos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-    <footer>
+
+    <main>
+        <div class="container conteudo-principal">
+            <section>
+                <h4 class="titulos">Um pouco sobre mim</h4>
+                <p></p>
+            </section>
+            <section>
+                <h4 class="titulos">Experiências profissionais</h4>
+            </section>
+            <section>
+                <h4 class="titulos">Projetos que participo ou participei</h4>
+            </section>
+            <section>
+                <h4 class="titulos">Minhas competências</h4>
+            </section>
+        </div>
+    </main>
+    <footer class="fixed-bottom text-center text-light m-3">
         &copy; Marcos Paulo Sarges Rolim 2018
     </footer>
 </body>
