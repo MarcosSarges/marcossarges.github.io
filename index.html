@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- fim -->
     <!-- Font Awensome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous"> -->
     <!-- fim -->
     <!--Importando fontes do google-->
     <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
@@ -21,6 +21,10 @@
     <!-- Meu css -->
     <link rel="stylesheet" type="text/css" href="src/css/index.css">
     <!-- fim -->
+    <!--Icone-->
+    <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="src/img/favicon.ico" type="image/x-icon">
+    <!--Fim-->
     <title>Marcos Sarges</title>
 </head>
 
@@ -28,7 +32,9 @@
     <header class="cabecalho">
         <nav class="navbar navbar-fixed-top navbar-expand-md navbar-dark">
             <div class="container">
+
                 <a href="#" class="navbar-brand h1 mb-0 meuNome">Marcos Sarges</a>
+
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuSite">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -55,24 +61,39 @@
         </nav>
     </header>
 
-    <main>
-        <div class="container conteudo-principal">
-            <section>
+    <main class="mt-3">
+        <div class="container conteudo-principal pr-5 pl-5">
+            <section class="sobre" id="sobre">
                 <h4 class="titulos">Um pouco sobre mim</h4>
-                <p></p>
+                <p class="lend ml-3">
+                    Meu nome é Marcos Paulo Sarges Rolim, tenho 20 anos, sou brasileiro e residente na cidade de Castanhal-PA.
+                </p>
+                <p class="lend ml-3">
+                    Atualmente estou cursando Análise e Desenvolvimento de Sistemas na Universidade do Estado do Pará – Campus XX em Castanhal-PA, com previsão de conclusão para julho de 2019.
+                </p>
+                <p class="lend ml-3">
+                    Sou apaixonado por aprender e gosto de resolver problemas, mas às vezes fico ansioso e com um pouco de medo porque parece que nunca sei o suficiente para fazer um projeto (esse site de apresentação é um teste para o que eu já sei e tenho o intuito de
+                    melhorá-lo e usá-lo como portfolio), mas nessa área é impossível saber tudo, o melhor mesmo é sempre estar procurando coisas novas e melhorando as antigas.
+                </p>
+                <!-- <figure class="minha-foto">
+                    <img src="src/img/eu.jpg" alt="Eu">
+                </figure> -->
             </section>
-            <section>
+            <section class="experiencias" id="experiencias">
                 <h4 class="titulos">Experiências profissionais</h4>
             </section>
-            <section>
+            <section class="projetos" id="projetos">
                 <h4 class="titulos">Projetos</h4>
             </section>
-            <section>
+            <section class="competencias" id="competencias">
                 <h4 class="titulos">Minhas competências</h4>
+            </section>
+            <section class="contatos" id="contatos">
+                <h4 class="titulos">Contatos</h4>
             </section>
         </div>
     </main>
-    <footer class="fixed-bottom text-center text-light m-3">
+    <footer class="fixed-bottom text-center rodape p-2">
         &copy; Marcos Paulo Sarges Rolim 2018
     </footer>
 </body>

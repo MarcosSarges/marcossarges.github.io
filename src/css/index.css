@@ -4,6 +4,12 @@ body {
 
 .cabecalho {
     font-family: 'Oxygen', sans-serif;
+    background-color: #1e2226;
+}
+
+.rodape {
+    font-family: 'Oxygen', sans-serif;
+    background-color: #1e2226;
 }
 
 .meuNome:hover {
@@ -26,6 +32,11 @@ h4 {
     text-transform: uppercase;
 }
 
+.h4,
+h4 {
+    font-size: 1.2rem;
+}
+
 .titulos {
     position: relative;
 }
@@ -38,4 +49,37 @@ h4 {
     border-radius: 5px;
     margin-right: 10px;
     background-image: linear-gradient(#DDFF01, #2e0);
+}
+
+.meuNome::first-letter {
+    color: black;
+    border-radius: 5px;
+    padding: 0.1em;
+    display: inline-block;
+    background-image: linear-gradient(#DDFF01, #2e0);
+    content: "M";
+    font-weight: bold;
+}
+
+.sobre {
+    position: relative;
+}
+
+.sobre p {
+    float: left;
+}
+
+section {
+    clear: both;
+}
+
+.minha-foto {
+    display: inline-block;
+    float: right;
+}
+
+.minha-foto img {
+    border: 0 solid black;
+    border-radius: 100%;
+    width: 10%;
 }
