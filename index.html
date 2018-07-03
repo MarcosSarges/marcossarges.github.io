@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- fim -->
     <!-- Font Awensome -->
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <!-- fim -->
     <!--Importando fontes do google-->
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
@@ -30,7 +30,10 @@
 
 <body class="bg-dark">
     <header class="cabecalho">
-        <nav class="navbar navbar-fixed-top navbar-expand-md navbar-dark">
+        <!-- banner com o nome marcos -->
+        <!-- <div class="banner" id="banner"></div> -->
+        <!-- fim banner -->
+        <nav class="navbar navbar-expand-md navbar-dark">
             <div class="container">
 
                 <a href="#" class="navbar-brand h1 mb-0 meuNome">Marcos Sarges</a>
@@ -41,19 +44,19 @@
                 <div class="collapse navbar-collapse text-light menu" id="menuSite">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a href="#sobre" class="nav-link">Sobre mim</a>
+                            <a href="#sobre" class="nav-link">#Sobre mim</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#experiencias" class="nav-link">Experiência</a>
+                            <a href="#experiencias" class="nav-link">#Experiência</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#projetos" class="nav-link">Projetos</a>
+                            <a href="#projetos" class="nav-link">#Projetos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#competencias" class="nav-link">Competências</a>
+                            <a href="#competencias" class="nav-link">#Competências e Interesses</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#contatos" class="nav-link">Contatos</a>
+                            <a href="#contatos" class="nav-link">#Contatos</a>
                         </li>
                     </ul>
                 </div>
@@ -65,71 +68,92 @@
         <div class="container conteudo-principal pr-5 pl-5">
             <section class="sobre" id="sobre">
                 <h4 class="titulos">Um pouco sobre mim</h4>
-                <p class="lend ml-3">
-                    Meu nome é Marcos Paulo Sarges Rolim, tenho 20 anos, sou brasileiro e residente na cidade de Castanhal-PA.
-                </p>
-                <p class="lend ml-3">
-                    Atualmente estou cursando Análise e Desenvolvimento de Sistemas na Universidade do Estado do Pará – Campus XX em Castanhal-PA, com previsão de conclusão para julho de 2019.
-                </p>
-                <p class="lend ml-3">
-                    Sou apaixonado por aprender e gosto de resolver problemas, mas às vezes fico ansioso e com um pouco de medo porque parece que nunca sei o suficiente para fazer um projeto (esse site de apresentação é um teste para o que eu já sei e tenho o intuito de
-                    melhorá-lo e usá-lo como portfolio), mas nessa área é impossível saber tudo, o melhor mesmo é sempre estar procurando coisas novas e melhorando as antigas.
-                </p>
+                <div class="conteudo">
+                    <p class="lend ml-3">
+                        Meu nome é Marcos Paulo Sarges Rolim, tenho 20 anos, sou brasileiro e residente na cidade de Castanhal-PA.
+                    </p>
+                    <p class="lend ml-3">
+                        Atualmente estou cursando Análise e Desenvolvimento de Sistemas na Universidade do Estado do Pará – Campus XX em Castanhal-PA, com previsão de conclusão para julho de 2019.
+                    </p>
+                    <p class="lend ml-3">
+                        Sou apaixonado por aprender e gosto de resolver problemas, mas às vezes fico ansioso e com um pouco de medo porque parece que nunca sei o suficiente para fazer um projeto (esse site de apresentação é um teste para o que eu já sei e tenho o intuito de
+                        melhorá-lo e usá-lo como portfolio), mas nessa área é impossível saber tudo, o melhor mesmo é sempre estar procurando coisas novas e melhorando as antigas.
+                    </p>
+                </div>
                 <!-- <figure class="minha-foto">
                     <img src="src/img/eu.jpg" alt="Eu">
                 </figure> -->
             </section>
             <section class="experiencias" id="experiencias">
                 <h4 class="titulos">Experiências profissionais</h4>
-                <div class="card bg-dark mb-3">
-                    <div class="card-body">
-                        <h5 class="card-title">Ultimo “trabalho”:</h5>
-                        <p class="card-text">
-                            Atualmente sou voluntário no projeto de manutenção corretiva e preventiva dos equipamentos do Campus XX, durante 6 meses fui encarregado de realizar a manutenção em todos os computadores do Campus, implementar melhorias no processo de manutenção e na
-                            infraestrutura presente no campus.
-                        </p>
+                <div class="conteudo">
+                    <div class="card bg-dark">
+                        <div class="card-body">
+                            <h5 class="card-title">Ultimo “trabalho”:</h5>
+                            <p class="card-text">
+                                Atualmente sou voluntário no projeto de manutenção corretiva e preventiva dos equipamentos do Campus XX, durante 6 meses fui encarregado de realizar a manutenção em todos os computadores do Campus, implementar melhorias no processo de manutenção e na
+                                infraestrutura presente no campus.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card bg-dark">
+                        <div class="card-body">
+                            <h5 class="card-title">Sobre o meu primeiro emprego (remunerado):</h5>
+                            <p class="card-text">
+                                Eu já trabalhei como auxiliar administrativo em uma imobiliária (Castanheira Imóveis) e durante exato um ano eu fui responsável por atender os clientes e preparar contratos para como me relacionar com clientes e com as pessoas que trabalhavam ao meu redor.
+                                (Esse emprego foi logo após eu terminar meu ensino médio e devido a vontade de me dedicar ao curso que estava fazendo resolvi sair).
+                            </p>
+                        </div>
                     </div>
                 </div>
-
-                <div class="card bg-dark">
-                    <div class="card-body">
-                        <h5 class="card-title">Sobre o meu primeiro emprego (remunerado):</h5>
-                        <p class="card-text">
-                            Eu já trabalhei como auxiliar administrativo em uma imobiliária (Castanheira Imóveis) e durante exato um ano eu fui responsável por atender os clientes e preparar contratos para como me relacionar com clientes e com as pessoas que trabalhavam ao meu redor.
-                            (Esse emprego foi logo após eu terminar meu ensino médio e devido a vontade de me dedicar ao curso que estava fazendo resolvi sair).
-                        </p>
-                    </div>
-                </div>
-
             </section>
             <section class="projetos mt-3" id="projetos">
                 <h4 class="titulos">Projetos</h4>
-                <p class="lend ml-3">
-                    Eu e outros amigos realizávamos a criação do site do evento “Encontro Estadual de Estudantes de Geografia”, esse projeto foi proposto como um grupo de estudos, onde nós realizávamos a coleta e análise dos requisitos e desenvolvíamos (tentávamos ser o
-                    mais profissional possível, claro que nenhum de nós tinha tido uma experiência real com um cliente). O site usa o CMS WordPress (o mais popular no mercado, atualmente).
-                    <br><a href="https://paginas.uepa.br/EnEEGEOIV/" class="btn btn-primary mt-3" target="_blank">IV - EnEEGEO</a>
-                </p>
+                <div class="conteudo">
+                    <p class="lend ml-3">
+                        Eu e outros amigos realizávamos a criação do site do evento “Encontro Estadual de Estudantes de Geografia”, esse projeto foi proposto como um grupo de estudos, onde nós realizávamos a coleta e análise dos requisitos e desenvolvíamos (tentávamos ser o
+                        mais profissional possível, claro que nenhum de nós tinha tido uma experiência real com um cliente). O site usa o CMS WordPress (o mais popular no mercado, atualmente).
+                        <br><a href="https://paginas.uepa.br/EnEEGEOIV/" class="btn btn-links mt-3" target="_blank">IV - EnEEGEO</a>
+                    </p>
 
-                <p class="lend ml-3">
-                    O outro site que construí foi em PHP (estruturado), utiliza Bootstrap e realiza acesso ao banco de dados MYSQL, esse projeto foi desenvolvido apenas por mim, mas foi realizado como forma de avaliação na matéria de Laboratório de desenvolvimento web II.
-                    <br><a href="https://lojadomarcos98.000webhostapp.com/index.php" class="btn btn-primary mt-3" target="_blank">Meu sistema</a>
-                    <br><small class="small">Login:f@f.com <br>Senha: 123456</small>
-                </p>
+                    <p class="lend ml-3">
+                        O outro site que construí foi em PHP (estruturado), utiliza Bootstrap e realiza acesso ao banco de dados MYSQL, esse projeto foi desenvolvido apenas por mim, mas foi realizado como forma de avaliação na matéria de Laboratório de desenvolvimento web II.
+                        <br><a href="https://lojadomarcos98.000webhostapp.com/index.php" class="btn btn-links mt-3" target="_blank">Meu sistema</a>
+                        <br><small class="small">Login:f@f.com <br>Senha: 123456</small>
+                    </p>
+                </div>
             </section>
             <section class="competencias" id="competencias">
-                <h4 class="titulos">Minhas competências</h4>
+                <h4 class="titulos">Competências e Interesses</h4>
+                <div class="card bg-dark">
+                    <div class="card-body">
+                        <h5 class="card-title">Avançado:</h5>
+                        <p class="card-text">
+                            Acho que não tenho conhecimento avançado em nenhuma tecnologia#
+                        </p>
+                    </div>
+                </div>
             </section>
             <section class="contatos" id="contatos">
                 <h4 class="titulos">Contatos</h4>
             </section>
         </div>
     </main>
-    <footer class="fixed-bottom text-center rodape p-2">
+    <footer class="text-center rodape p-2">
         &copy; Marcos Paulo Sarges Rolim 2018
     </footer>
     <!-- Js. para o scroll lento -->
     <script src="src/js/scroll.js"></script>
     <!-- fim -->
+    <!--Js. determinar o tamano do banner inicial-->
+    <!-- <script src="src/js/bannerInicio.js"></script> -->
+    <!-- fim -->
+    <!-- Jquery -->
+    <!-- <script src="src/js/jquery.js"></script> -->
+    <!-- fim -->
+    <!-- <script src="src/js/sanfona.js"></script>
+    <script src="src/js/elementoclicado.js"></script> -->
+
 </body>
 
-</html
+</html>
