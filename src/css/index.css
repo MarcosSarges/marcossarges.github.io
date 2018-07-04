@@ -22,10 +22,28 @@ h6 {
 
 .cabecalho {
     background-color: #1e2226;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+main {
+    padding-top: 4.5em;
 }
 
 .rodape {
     background-color: #1e2226;
+}
+
+.rodape .nav .nav-item .navlink,
+.active {
+    color: #2e0;
+    transition: 0.2s;
+}
+
+.rodape .nav .nav-item .navlink,
+.active:hover {
+    color: rgb(22, 145, 0);
 }
 
 .meuNome {
@@ -57,10 +75,6 @@ h4 {
     font-size: 1.2rem;
 }
 
-.titulos {
-    position: relative;
-}
-
 .titulos::before {
     content: '';
     display: inline-block;
@@ -80,10 +94,6 @@ h4 {
     content: "M";
     font-weight: bold;
     margin-right: 0.1em;
-}
-
-.sobre {
-    position: relative;
 }
 
 .sobre p {
@@ -112,20 +122,22 @@ p::first-letter {
 }
 
 .card {
+    position: initial;
+}
+
+.card {
     border: none;
 }
 
 .btn-links {
     color: white;
-    background-image: linear-gradient(#DDFF01, #2e0);
-    border-top-color: #DDFF01;
-    border-bottom-color: #2e0;
+    background-image: linear-gradient(to bottom, rgb(0, 89, 255), rgb(0, 60, 255), rgb(0, 89, 255));
     font-weight: bolder;
     transition: .2s;
 }
 
 .btn-links:hover {
-    color: #1e2226;
+    color: #ffffff;
 }
 
 .card-body {
@@ -137,3 +149,12 @@ p::first-letter {
 .conteudo {
     display: none;
 } */
+
+.competencias ul {
+    list-style: none;
+    padding-left: 1em;
+}
+
+.competencias p {
+    margin-bottom: 0;
+}
