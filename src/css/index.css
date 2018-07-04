@@ -133,14 +133,23 @@ p::first-letter {
 }
 
 .btn-links {
-    color: white;
-    background-image: linear-gradient(to bottom, rgb(0, 89, 255), rgb(0, 60, 255), rgb(0, 89, 255));
-    font-weight: bolder;
+    border: 1px solid #27c127;
+    border-radius: 3px;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, #46DA46, #3BB307);
+    color: #FFF;
+    font-weight: bold;
     transition: .2s;
+    font-family: 'Arial', sans-serif;
+    /* padding: 1em; */
 }
 
 .btn-links:hover {
     color: #ffffff;
+    background-color: #28c528;
+    border: 1px solid #1f9b1f;
+    background-image: linear-gradient(to bottom, #28c528, #2b8205);
 }
 
 .card-body {
