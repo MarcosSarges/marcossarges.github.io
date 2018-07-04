@@ -22,14 +22,15 @@ h6 {
 
 .cabecalho {
     background-color: #1e2226;
-    width: 100%;
+    /* width: 100%;
     position: fixed;
-    top: 0;
+    top: 0; */
 }
 
-main {
+
+/* main {
     padding-top: 4.5em;
-}
+} */
 
 .rodape {
     background-color: #1e2226;
@@ -158,3 +159,22 @@ p::first-letter {
 .competencias p {
     margin-bottom: 0;
 }
+
+.link-do-projeto {
+    text-align: center;
+    width: 100%;
+    margin: .5em 0;
+}
+
+.link-do-projeto a {
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+.link-do-projeto a:hover {
+    color: #c9c9c9;
+}
+
+.lista-de-competencias {}
+
+.link-do-projeto div {}
