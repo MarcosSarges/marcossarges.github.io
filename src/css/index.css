@@ -12,13 +12,15 @@ h6 {
     font-family: 'Roboto Mono', monospace;
 }
 
+
+/* 
 #banner {
     width: 100%;
-    height: auto;
     color: white;
     text-align: center;
+    padding-top: 50%;
     text-shadow: 1px 1px 1px rgb(17, 109, 0);
-}
+} */
 
 .cabecalho {
     background-color: #1e2226;
@@ -145,14 +147,9 @@ p::first-letter {
     padding-left: 1em;
 }
 
-
-/* 
-.conteudo {
-    display: none;
-} */
-
 .competencias ul {
-    list-style: none;
+    /* list-style: none; */
+    list-style-image: linear-gradient(#DDFF01, #2e0);
     padding-left: 1em;
 }
 
@@ -175,6 +172,13 @@ p::first-letter {
     color: #c9c9c9;
 }
 
-.lista-de-competencias {}
 
-.link-do-projeto div {}
+/* .lista-de-competencias {}
+
+.link-do-projeto div {} */
+
+
+/* 
+.conteudo {
+    display: none;
+} */
