@@ -1,12 +1,12 @@
 $(function() {
-$(".titulos").hover(
-    function() {
-        $(this).css("color", "#2e0");
-    },
-    function() {
-        $(this).css("color", "#fff");
-    }
-)
+    $(".titulos").hover(
+        function() {
+            $(this).css("color", "#2e0");
+        },
+        function() {
+            $(this).css("color", "#fff");
+        }
+    )
 });
 
 // var aberto = false;
@@ -20,4 +20,4 @@ $(".titulos").hover(
 //         $(id).slideDown();
 //         aberto = !aberto;
 //     }
-});
+// });
