@@ -3,5 +3,4 @@ document.querySelector(".btnSubir").addEventListener("click",function(){
         top: 0,
         behavior: "smooth",
     })
-   // smoothScrollTo(0, 0);
 });

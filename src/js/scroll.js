@@ -10,7 +10,6 @@ function scrollToPosition(to) {
         top: to,
         behavior: "smooth",
     })
-    smoothScrollTo(0, to);
 }
 
 function scrollToIdOnClick(event) {

@@ -37,6 +37,8 @@ h6 {
     top: 50%;
     left: -50;
     position: fixed;
+   
+
 } 
 .barralateral ul{
     transform: rotate(90deg) translateY(100px);
@@ -50,6 +52,15 @@ h6 {
     height: 50px;
     text-align: center;
 }
+#facebook{
+    border: 0px solid transparent;
+    border-radius: 0 50% 0 0;
+}
+#email{
+    border: 0px solid transparent;
+    border-radius: 0 0 50% 0;
+}
+
 .rodape .nav .nav-item .navlink,
 .active {
     color: #2e0;
