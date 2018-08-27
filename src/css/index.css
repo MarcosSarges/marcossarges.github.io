@@ -33,11 +33,23 @@ h6 {
 /* main {
     padding-top: 4.5em;
 } */
-
-.rodape {
-    background-color: #1e2226;
+.barralateral{
+    top: 50%;
+    left: -50;
+    position: fixed;
+} 
+.barralateral ul{
+    transform: rotate(90deg) translateY(100px);
+    left: 0px;
+    float: left;
 }
-
+.barralateral ul li {
+    background-color: #1e2226;
+    transform: rotate(-90deg);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
 .rodape .nav .nav-item .navlink,
 .active {
     color: #2e0;
@@ -48,7 +60,9 @@ h6 {
 .active:hover {
     color: rgb(22, 145, 0);
 }
-
+.rodape {
+    background-color: #1e2226;
+}
 .meuNome {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -181,13 +195,26 @@ p::first-letter {
     color: #c9c9c9;
 }
 
+.btnSubir{
+    top: 86%;
+    right: 1em;
+    position: fixed;
+    color: #2e0;
+    background-color: #1e2226;
+    width: 2em;
+    height: 2em;
+    border:  0px transparent;
+    border-radius: 100px;
+    text-align: center;
+    
+}
 
-/* .lista-de-competencias {}
-
-.link-do-projeto div {} */
-
-
-/* 
-.conteudo {
-    display: none;
-} */
+.btnSubir i{
+   font-size: 2em;
+   margin: 0;
+   padding: 5px;
+   transition-duration: 0.5s;
+}
+.btnSubir:hover i{
+    color:rgb(22, 145, 0);
+}

@@ -6,7 +6,6 @@ function getScrollTopByHref(element) {
 }
 
 function scrollToPosition(to) {
-    // Caso queira o nativo apenas
     window.scroll({
         top: to,
         behavior: "smooth",
@@ -23,7 +22,3 @@ function scrollToIdOnClick(event) {
 menuItems.forEach(item => {
     item.addEventListener('click', scrollToIdOnClick);
 });
-
-/*
- *link para o video do autor da funcionalidade https://www.youtube.com/watch?v=tzbpAqb2Wjc&t=68s
- */
