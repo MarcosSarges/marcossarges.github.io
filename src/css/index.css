@@ -217,8 +217,6 @@ p::first-letter {
     width: 16em;
 }
 .minhafoto{
-    /* height: 16em;
-    width: 16em; */
     border: 0px solid transparent;
     border-radius: 70%;
 }
