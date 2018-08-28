@@ -47,11 +47,11 @@ h6 {
 }
 #facebook{
     border: 0px solid transparent;
-    border-radius: 0 50% 0 0;
+    border-radius: 0 40% 0 0;
 }
 #email{
     border: 0px solid transparent;
-    border-radius: 0 0 50% 0;
+    border-radius: 0 0 40% 0;
 }
 
 .rodape .nav .nav-item .navlink,
@@ -130,16 +130,6 @@ p::first-letter {
     color: #2e0;
     font-weight: bolder;
     content: "";
-}
-
-.minha-foto {
-    float: right;
-}
-
-.minha-foto img {
-    border: 0 solid black;
-    border-radius: 100%;
-    width: 10%;
 }
 
 .card {
@@ -221,4 +211,14 @@ p::first-letter {
 }
 .btnSubir:hover i{
     color:rgb(22, 145, 0);
+}
+.foto{
+    height: 16em;
+    width: 16em;
+}
+.minhafoto{
+    /* height: 16em;
+    width: 16em; */
+    border: 0px solid transparent;
+    border-radius: 70%;
 }
